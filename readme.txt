@@ -17,7 +17,7 @@ FUENTES DE INVESTIGACIÓN PARA DESARROLLAR EL BLOG -----------------------------
     1. MDN Web Docs (Mozilla Developer Network):
         MDN — Fondo/Background: https://developer.mozilla.org/es/docs/Web/CSS/Reference/Properties/background
         MDN — Fondo/Imagen: https://mdn2.netlify.app/en-us/docs/web/css/background-image/
-        MDN — Fondo/Tamaño: https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/background-size
+        MDN — Fondo/Tamaño: https://developer.mozilla.org/es/docs/Web/CSS/Reference/Properties/background-size
         MDN — CSS Cajas: https://developer.mozilla.org/es/docs/Web/CSS/Reference/Properties/background
         MDN — HTML elementos: https://developer.mozilla.org/es/docs/Web/HTML/Reference/Elements
 
