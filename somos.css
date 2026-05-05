@@ -1,0 +1,21 @@
+/* Contenedor informativo */
+.contact-info {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+
+/* Ajuste de tarjetas */
+.contact-info .tip {
+  margin-bottom: 0;
+}
+
+/* Título */
+.contact-info .tip h2 {
+  font-size: 1.3rem;
+}
+
+/* Texto */
+.contact-info .tip p {
+  line-height: 1.7;
+}

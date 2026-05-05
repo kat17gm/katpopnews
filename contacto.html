@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>  
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>KatPop News</title>
+  <!-- Optimización de carga para fuentes de Google -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <!-- Importación de tipografías desde Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Poppins:wght@600;700;800&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Poppins:wght@600;700;800&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/contacto.css">  
+</head>
+
+<body>
+  <!-- Encabezado con logo y menú de navegación -->
+  <header>
+    <div class="container nav">
+      <div class="logo">KATPOP NEWS</div>
+      <!-- Menú principal de navegación -->
+      <ul class="menu">
+        <li><a href="./index.html">Inicio</a></li>
+        <li><a href="./contacto.html">Contacto</a></li>
+        <li><a href="./somos.html">Quiénes somos</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <!-- Contenido principal de la página de contacto -->
+  <main class="container contact-layout">
+    <!-- Sección izquierda: imagen decorativa con imagen de CSS -->
+    <section class="contact-image-box">
+      <div class="contact-image"></div>
+    </section>
+
+    <!-- Sección derecha: formulario de contacto -->
+    <section class="contact-form-box">
+      <div class="form-card">
+
+        <h2>Contáctanos</h2>
+        <p>
+          ¿Piensas que faltan grupos, noticias o secciones para el blog? 
+          Adelante, siéntete libre de compartir tus ideas
+        </p>
+
+        <!-- Formulario de contacto -->
+        <form class="contact-form">
+          <!-- Campo: nombre o usuario -->
+          <div class="input-group">
+            <label for="nombre">Nombre o Usuario de internet</label>
+            <input type="text" id="nombre" placeholder="Aquí">
+          </div>
+          <!-- Campo: asunto -->
+          <div class="input-group">
+            <label for="asunto">Asunto</label>
+            <input type="text" id="asunto" placeholder="Palabras clave">
+          </div>
+          <!-- Campo: mensaje -->
+          <div class="input-group">
+            <label for="mensaje">Mensaje</label>
+            <textarea id="mensaje" rows="4" placeholder="Escribe tú mensaje aquí..."></textarea>
+          </div>
+          <!-- Botón para limpiar el formulario -->
+          <button type="reset" class="btn">Enviar mensaje</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <!-- Pie de página -->
+  <footer class="footer">
+    <div class="footer-bottom">
+      <p>© 2026 KatPop News. Todos los derechos reservados.</p>
+    </div>
+  </footer>
+
+</body>
+</html>

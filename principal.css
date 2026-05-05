@@ -1,0 +1,162 @@
+/* Hero principal */
+.hero {
+  height: 520px;
+  display: flex;
+  align-items: center;
+  background:
+    linear-gradient(rgba(0,0,0,.35), rgba(0,0,0,.35)),
+    url('../img/portada.jpg') center/cover;
+}
+
+/* Tarjeta hero */
+.hero-card {
+  max-width: 520px;
+  color: white;
+  padding: 2rem;
+  border-radius: 28px;
+  backdrop-filter: blur(6px);
+  background: rgba(0, 0, 0, 0.25);
+}
+
+/* Título hero */
+.hero-card h1 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 3rem;
+  line-height: 1.1;
+  margin-bottom: 1rem;
+}
+
+/* Texto hero */
+.hero-card p {
+  font-size: 1.05rem;
+  line-height: 1.7;
+  color: rgba(255,255,255,.9);
+}
+
+/* Layout principal */
+.layout {
+  display: grid;
+  grid-template-columns: 1fr 280px;
+  gap: 1.5rem;
+  align-items: start;
+}
+
+/* Tarjeta tip */
+.tip {
+  margin-bottom: 1.5rem;
+}
+
+/* Etiqueta tip */
+.tip span {
+  display: inline-block;
+  background: rgba(0,0,0,.08);
+  padding: .35rem .7rem;
+  border-radius: 999px;
+  font-size: .8rem;
+  font-weight: 800;
+  margin-bottom: .75rem;
+}
+
+/* Título tip */
+.tip h2 {
+  font-size: 1.45rem;
+}
+
+/* Grid de noticias */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.25rem;
+}
+
+/* Tarjeta noticia */
+.card {
+  background: var(--card);
+  border-radius: var(--radius);
+  overflow: hidden;
+  box-shadow: var(--shadow);
+  transition: .25s ease;
+}
+
+/* Hover tarjeta */
+.card:hover {
+  transform: translateY(-6px);
+}
+
+/* Imagen miniatura */
+.thumb {
+  height: 180px;
+  background-size: cover;
+  background-position: center;
+}
+
+/* Miniaturas */
+.thumb-1 { background-image: url('../img/boyfriend3.png'); }
+.thumb-2 { background-image: url('../img/v81.jpg'); }
+.thumb-3 { background-image: url('../img/one1.jpg'); }
+.thumb-4 { background-image: url('../img/ioi1.jpg'); }
+
+/* Contenido tarjeta */
+.content {
+  padding: 1.2rem;
+}
+
+/* Etiqueta */
+.tag {
+  color: var(--pink-dark);
+  font-weight: 800;
+  font-size: .9rem;
+  display: inline-block;
+  margin-bottom: .45rem;
+}
+
+/* Título noticia */
+.content h3 {
+  font-size: 1.15rem;
+  line-height: 1.4;
+  margin-bottom: .65rem;
+}
+
+/* Enlace */
+.content a {
+  color: var(--pink-dark);
+  text-decoration: none;
+  font-weight: 700;
+}
+
+/* Sidebar */
+aside {
+  background: var(--blue-soft);
+  border-radius: 28px;
+  padding: 1.4rem;
+  position: sticky;
+  top: 96px;
+}
+
+/* Título sidebar */
+aside h3 {
+  font-family: 'Poppins', sans-serif;
+  color: var(--bluee);
+  margin-bottom: 1rem;
+  font-size: 1.45rem;
+}
+
+/* Responsive */
+@media (max-width: 900px) {
+  .layout,
+  .grid {
+    grid-template-columns: 1fr;
+  }
+
+  aside {
+    position: static;
+  }
+
+  .hero {
+    height: 430px;
+  }
+
+  .hero-card h1 {
+    font-size: 2.3rem;
+  }
+}

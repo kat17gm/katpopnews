@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>  
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>KatPop News</title>
+  <!-- Optimización de carga para fuentes de Google -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <!-- Importación de tipografías desde Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Poppins:wght@600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/principal.css">  
+</head>
+
+<body>
+  <!-- Encabezado principal con logo y menú de navegación -->
+  <header>
+    <div class="container nav">
+      <div class="logo">KATPOP NEWS</div>
+
+      <!-- Menú de navegación principal -->
+      <ul class="menu">
+        <li><a href="./index.html">Inicio</a></li>
+        <li><a href="./contacto.html">Contacto</a></li>
+        <li><a href="./somos.html">Quiénes somos</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <!-- Sección principal destacada (Hero) -->
+  <section class="hero">
+    <div class="container">
+      <div class="hero-card">
+        <br>
+        <h1>Noticias de tus ídolos de K-pop al día</h1>
+        <p>
+          Tu sitio web para enterarte de comebacks, conciertos, escándalos, premios y todo lo que
+          está pasando en la industria coreana.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <main class="container">
+    <div class="layout">
+
+      <!-- Sección principal de noticias -->
+      <section>
+        <div class="tip">
+          <span>TIP DEL DÍA</span>
+          <h2>Hoteles cerca del concierto de MONSTA X</h2>
+          <p>
+            10 opciones recomendadas antes y después del show para moverte fácil
+            y ahorrar tiempo.
+          </p>
+        </div>
+
+        <!-- Tarjeta de noticias destacadas -->
+        <div class="grid">
+          <!-- Tarjeta de noticia 1 -->
+          <article class="card">
+            <div class="thumb thumb-1"></div>
+            <!-- Imagen de portada (asignada desde CSS) -->
+            <div class="content">
+              <span class="tag">BOYFRIEND</span>
+              <h3>Celebrarán su 15.º aniversario con comeback en mayo</h3>
+              <a href="./boyfriend.html">Leer artículo →</a>
+            </div>
+          </article>
+          <!-- Tarjeta de noticia 2 -->
+          <article class="card">
+            <div class="thumb thumb-2"></div>
+            <div class="content">
+              <span class="tag">SEVENTEEN</span>
+              <h3>Vernon y The8 encienden rumores tras nueva aparición</h3>
+              <a href="./seventeen.html">Leer artículo →</a>
+            </div>
+          </article>
+          <!-- Tarjeta de noticia 3 -->
+          <article class="card">
+            <div class="thumb thumb-3"></div>
+            <div class="content">
+              <span class="tag">¡DEMANDA!</span>
+              <h3>ONE HUNDRED enfrenta nuevas acusaciones legales</h3>
+              <a href="./onehundred.html">Leer artículo →</a>
+            </div>
+          </article>
+          <!-- Tarjeta de noticia 4 -->
+          <article class="card">
+            <div class="thumb thumb-4"></div>
+            <div class="content">
+              <span class="tag">IOI</span>
+              <h3>9 de las 11 integrantes podrían reunirse este año</h3>
+              <a href="./ioi.html">Leer artículo →</a>
+            </div>
+          </article>
+
+        </div>
+      </section>
+
+      <!-- Barra lateral con navegación por generaciones de K-pop -->
+      <aside>
+        <h3>Grupos</h3>
+        <!-- Lista de botones para navegar por generaciones -->
+        <div class="pill-list">
+          <button class="pill" onclick="location.href='1gen.html'">1° generación</button>
+          <button class="pill" onclick="location.href='2gen.html'">2° generación</button>
+          <button class="pill" onclick="location.href='3gen.html'">3° generación</button>
+          <button class="pill" onclick="location.href='4gen.html'">4° generación</button>
+          <button class="pill" onclick="location.href='5gen.html'">5° generación</button>
+        </div>
+      </aside>
+
+    </div>
+  </main>
+
+  <!-- Pie de página -->
+  <footer class="footer">
+    <div class="footer-bottom">
+      <p>© 2026 KatPop News. Todos los derechos reservados.</p>
+    </div>
+  </footer>
+
+</body>
+</html>

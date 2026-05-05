@@ -1,0 +1,69 @@
+/* Layout principal */
+.layout-gen {
+  display: block;
+}
+
+/* Sección de tabla */
+.table-section {
+  width: 100%;
+}
+
+/* Título principal */
+.section-title {
+  font-family: 'Poppins', sans-serif;
+  font-size: 2rem;
+  margin-bottom: .4rem;
+}
+
+/* Subtítulo */
+.section-subtitle {
+  color: var(--muted);
+  margin-bottom: 1.5rem;
+}
+
+/* Contenedor de tabla */
+.table-wrapper {
+  overflow-x: auto;
+  background: white;
+  border-radius: 24px;
+  box-shadow: var(--shadow);
+}
+
+/* Tabla */
+.groups-table {
+  width: 100%;
+  border-collapse: collapse;
+  min-width: 850px;
+}
+
+/* Encabezado */
+.groups-table thead {
+  background: var(--bluee);
+  color: white;
+}
+
+/* Celdas de encabezado */
+.groups-table th {
+  padding: 1rem;
+  text-align: left;
+  font-family: 'Poppins', sans-serif;
+  font-size: .95rem;
+  white-space: nowrap;
+}
+
+/* Celdas */
+.groups-table td {
+  padding: 1rem;
+  border-bottom: 1px solid var(--line);
+  font-size: .95rem;
+}
+
+/* Filas pares */
+.groups-table tbody tr:nth-child(even) {
+  background: #fcfcfc;
+}
+
+/* Hover en filas */
+.groups-table tbody tr:hover {
+  background: #fff7fb;
+}
