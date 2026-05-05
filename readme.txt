@@ -32,7 +32,7 @@ FUENTES DE INVESTIGACIÓN PARA DESARROLLAR EL BLOG -----------------------------
         Información HTML: https://www.w3.org/TR/html52/
         Información CSS: https://www.w3.org/TR/CSS/
 
-    4. Casos prácticos y explicados:
+    4. Blogs enfocados en diseño web:
         Diseño web ejemplo: https://www.reddit.com/r/web_design/
         Ejercicio CSS: https://www.reddit.com/r/css/
 
